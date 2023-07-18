@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Master Data Managment (MDM)</a></li>
+      after: |
+        <li><a href="https://kmezhoud.netlify.app/" target="blank">Karim Mezhoud</a></li>
+    edit: https://github.com/kmezhoud/Training/edit/main/%s
+    download: ["pdf", "epub"]
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
