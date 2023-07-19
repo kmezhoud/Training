@@ -179,6 +179,7 @@ Les technologies de traitement Big Data sont des outils et des frameworks qui pe
  - Il permet de collecter, stocker et traiter efficacement les flux de données en temps réel.
 
 8. TensorFlow :
+
  - TensorFlow est une bibliothèque open source développée par Google pour le traitement de données et l'apprentissage automatique.
  - Il est largement utilisé pour la création de modèles d'apprentissage automatique et pour le traitement de données à grande échelle.
 

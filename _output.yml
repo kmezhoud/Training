@@ -8,7 +8,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://kmezhoud.netlify.app/" target="blank">Karim Mezhoud</a></li>
     edit: https://github.com/kmezhoud/Training/edit/main/%s
-    download: ["pdf"]
+    download: [pdf]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
