@@ -3,10 +3,10 @@ title: "La qualité des données dans les sources de données"
 author: "Karim Mezhoud"
 date: "7/19/2023"
 output:
-  ioslides_presentation: default
+  slidy_presentation: default
   logo: logo.jpg
   beamer_presentation: default
-  slidy_presentation: default
+  ioslides_presentation: default
 ---
 
 ```{r setup, include=FALSE}
