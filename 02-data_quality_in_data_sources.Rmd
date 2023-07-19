@@ -8,7 +8,7 @@ knitr::include_url('slides/data_quality_in_data_sources_slide.html')
 
 
 ```{r, echo=FALSE}
-knitr::include_url('slides/ninja.html')
+#knitr::include_url('slides/ninja.html')
 ```
 
 <!-- ````{=html} -->
