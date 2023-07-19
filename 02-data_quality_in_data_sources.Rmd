@@ -3,11 +3,6 @@
 # La qualité des données dans les sources de données {#dataquality}
 
 ```{r, echo=FALSE}
-knitr::include_url('slides/data_quality_in_data_sources_slide.html')
-```
-
-
-```{r, echo=FALSE}
 #knitr::include_url('slides/ninja.html')
 ```
 
@@ -39,6 +34,11 @@ Ce cours est conçu pour les professionnels qui souhaitent en savoir plus sur la
 Ce cours est un excellent moyen d'en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les compétences et les connaissances dont ils ont besoin pour améliorer la qualité des données dans leurs organisations.
 
 ## Jour 1 
+
+```{r, echo=FALSE}
+knitr::include_url('slides/slide_jour_1_data_quality_in_data_sources.html')
+```
+
 
 ### Introduction à la qualité des données
     
