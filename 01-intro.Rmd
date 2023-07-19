@@ -19,7 +19,7 @@ my_tbl <- tibble::tribble(
 "La restitution et le reporting des données avec Power BI, concevoir des tableaux de bord", 2,
 "Atelier pratique Corporate BI : SQL Server, Business Intelligence (SSIS, SSAS et SSRS)",3,
 "Big Data - Introduction, concepts clés, Hadoop (HDFS et Map Reduce) et présentation de lac de données", 3, 
-"[Big Data, présentation de méthodes et solutions pratiques pour l'analyse des données volumineuses]()", 1,  
+"[Big Data, présentation de méthodes et solutions pratiques pour l'analyse des données volumineuses](https://kmezhoud.github.io/Training/bigdata_methods.html#bigdata_methods)", 1,  
 "RGPD, sensibilisation à la nouvelle réglementation sur la protection des données", 1,
 "Master Data Management avec Semarchy", 2, 
 "Collibra Data Quality", 2, 
