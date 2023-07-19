@@ -2,7 +2,7 @@
 
 
 ```{r}
-knitr::include_url('https://github.com/kmezhoud/Training/blob/main/slides/data_quality_in_data_sources_slide.html')
+knitr::include_url('https://github.com/kmezhoud/Training/blob/main/slides/data_quality_in_data_sources_slide.html#1')
 ```
   
 ## Objectifs
