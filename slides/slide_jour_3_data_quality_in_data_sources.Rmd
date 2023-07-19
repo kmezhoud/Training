@@ -1,0 +1,40 @@
+---
+title: "La qualité des données dans les sources de données"
+subtitle: "Jour 3"
+author: "Karim Mezhoud"
+institute: "CNSTN"
+date: "2023/12/12"
+output:
+  slidy_presentation: default
+  beamer_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Jour 3 \| Bonnes pratiques et outils pour la qualité des données
+
+- Bonnes pratiques pour assurer la qualité des données
+
+- Présenter quelques bonnes pratiques pour garantir la qualité des données : formation du personnel, documentation des processus, validation des entrées utilisateur, etc.
+
+# Jour 3 \| Outils et techniques pour la maitrise de la qualité des données:
+
+- Outils pour la qualité des données
+
+- Mentionner certains outils et technologies qui aident à maintenir la qualité des données : systèmes de gestion de la qualité des données (Data Quality Management Systems), outils d'intégration de données, solutions de nettoyage des données, etc.
+
+# Jour 3 \| Récapitulatif:
+
+- Conclusion
+
+- Récapituler les points clés abordés dans la présentation
+    Souligner l'importance continue de la qualité des données dans un monde axé sur les données
+
+# Jour 3 \| Questions et Reponses:
+
+- Questions et réponses
+- Réserver un temps pour les questions et les réponses afin de clarifier tout point soulevé par l'auditoire

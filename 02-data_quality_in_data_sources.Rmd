@@ -71,6 +71,10 @@ knitr::include_url('slides/slide_jour_2_data_quality_in_data_sources.html')
 
 ## Jour 3
 
+```{r, echo=FALSE}
+knitr::include_url('slides/slide_jour_3_data_quality_in_data_sources.html')
+```
+
 ### Amélioration de la qualité des données
 
 ### Les différents types d'amélioration de la qualité des données
