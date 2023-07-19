@@ -2,17 +2,20 @@
 title: "Master Data Managment"
 author: "Karim Mezhoud"
 date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
+output: pdf_document
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography:
+- book.bib
+- packages.bib
 url: https://kmezhoud.github.io/Training/
 cover-image: img/mdm-framework.png
 description: |
   This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
+  The HTML output format for this example is bookdown::gitbook,
 link-citations: yes
 github-repo: kmezhoud/Training
+site: bookdown::bookdown_site
 ---
 
 <!-- # About -->
