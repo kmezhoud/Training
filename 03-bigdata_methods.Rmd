@@ -411,25 +411,6 @@ Il est important de noter que la gestion des données manquantes et des valeurs 
 
 ## Module 3 : Analyse et traitement des données volumineuses
 
-### Introduction aux algorithmes d'apprentissage automatique pour le Big Data
-
-L'apprentissage automatique, également connu sous le nom de machine learning, est une branche de l'intelligence artificielle qui permet aux machines d'apprendre à partir de données sans être explicitement programmées. Ces algorithmes d'apprentissage automatique jouent un rôle essentiel dans le traitement et l'analyse des données volumineuses, communément appelées Big Data. Grâce à leur capacité à extraire des modèles, des tendances et des informations cachées à partir de grandes quantités de données, les algorithmes d'apprentissage automatique ouvrent la voie à des applications innovantes et à des prises de décision intelligentes.
-
-Dans cette introduction aux algorithmes d'apprentissage automatique pour le Big Data, nous explorerons les principales catégories d'algorithmes utilisés pour analyser les données massives :
-
-1. **Apprentissage supervisé** :
-   - Dans l'apprentissage supervisé, les algorithmes utilisent un ensemble de données étiqueté, c'est-à-dire des données associées à des étiquettes ou des résultats connus. Ces algorithmes apprennent à partir de ces données pour faire des prédictions ou prendre des décisions sur de nouvelles données. Les exemples d'algorithmes d'apprentissage supervisé incluent les machines à vecteurs de support (SVM), les forêts aléatoires, et les réseaux de neurones.
-
-2. **Apprentissage non supervisé** :
-   - Contrairement à l'apprentissage supervisé, l'apprentissage non supervisé traite des données non étiquetées. Ces algorithmes recherchent des structures, des regroupements, ou des modèles cachés dans les données sans avoir de résultats cibles spécifiques. L'apprentissage non supervisé est largement utilisé dans la segmentation de clients, la classification de documents, et la détection d'anomalies. Les exemples d'algorithmes d'apprentissage non supervisé comprennent le clustering k-means, la réduction de dimensionnalité avec l'analyse en composantes principales (PCA), et les cartes auto-organisatrices (SOM).
-
-3. **Apprentissage par renforcement** :
-   - L'apprentissage par renforcement concerne les systèmes qui apprennent à partir de l'interaction avec un environnement. Ils apprennent à prendre des actions afin de maximiser une récompense ou une mesure de performance spécifique. Cette approche est souvent utilisée dans des applications telles que les jeux, les robots autonomes, et la gestion des ressources. Les algorithmes d'apprentissage par renforcement incluent les Q-Learning et les méthodes basées sur les politiques.
-
-Dans le contexte du Big Data, les algorithmes d'apprentissage automatique sont confrontés à des défis uniques, tels que la gestion des volumes massifs de données, la vitesse de traitement en temps réel, et la sélection d'algorithmes adaptés aux données spécifiques. De plus, l'utilisation du Cloud Computing pour le Big Data permet d'accéder à des ressources de calcul évolutives pour l'entraînement et le déploiement de modèles d'apprentissage automatique à grande échelle.
-
-En explorant les algorithmes d'apprentissage automatique pour le Big Data, nous découvrirons comment ces méthodes puissantes peuvent être appliquées dans divers domaines tels que la santé, le commerce électronique, la finance, la recherche scientifique et bien d'autres. Grâce à ces algorithmes, les entreprises et les organisations peuvent exploiter pleinement le potentiel de leurs données volumineuses pour améliorer les performances, prendre des décisions éclairées et innover dans un monde de plus en plus axé sur les données.
-
 ### Aperçu sur l'Analyse de Données en Temps Réel
 
 L'analyse de données en temps réel, également connue sous le nom de traitement en temps réel, est un domaine de l'informatique qui se concentre sur l'extraction, le traitement et l'analyse des données au fur et à mesure qu'elles sont générées, en temps réel. Contrairement à l'analyse des données en batch, qui traite les données après leur collecte, l'analyse en temps réel permet aux entreprises et aux organisations de prendre des décisions éclairées en temps réel, d'obtenir des informations en temps utile et de réagir rapidement aux événements et aux changements.
@@ -487,9 +468,29 @@ Les méthodes de réduction de dimension pour les données volumineuses sont uti
 8. **Random Projections** :
    - Les projections aléatoires sont une approche simple de la réduction de dimension qui consiste à projeter les données dans un espace de dimensions inférieures à l'aide de matrices de projection aléatoires. Malgré sa simplicité, cette méthode peut être efficace pour de nombreuses tâches.
 
-Il est important de choisir la méthode de réduction de dimension appropriée en fonction des caractéristiques et des besoins spécifiques des données. Chaque méthode a ses avantages et ses limites, et l'efficacité de la réduction de dimension dépendra de la nature des données et des objectifs d'analyse.
+Il est important de choisir la méthode de réduction de dimension appropriée en fonction des caractéristiques et des besoins spécifiques des données. Chaque méthode a ses avantages et ses limites, et l'efficacité de la réduction de dim
+ension dépendra de la nature des données et des objectifs d'analyse.
 
-4. Techniques d'analyse de texte et de traitement du langage naturel
+### Introduction aux algorithmes d'apprentissage automatique pour le Big Data
+
+L'apprentissage automatique, également connu sous le nom de machine learning, est une branche de l'intelligence artificielle qui permet aux machines d'apprendre à partir de données sans être explicitement programmées. Ces algorithmes d'apprentissage automatique jouent un rôle essentiel dans le traitement et l'analyse des données volumineuses, communément appelées Big Data. Grâce à leur capacité à extraire des modèles, des tendances et des informations cachées à partir de grandes quantités de données, les algorithmes d'apprentissage automatique ouvrent la voie à des applications innovantes et à des prises de décision intelligentes.
+
+Dans cette introduction aux algorithmes d'apprentissage automatique pour le Big Data, nous explorerons les principales catégories d'algorithmes utilisés pour analyser les données massives :
+
+1. **Apprentissage supervisé** :
+   - Dans l'apprentissage supervisé, les algorithmes utilisent un ensemble de données étiqueté, c'est-à-dire des données associées à des étiquettes ou des résultats connus. Ces algorithmes apprennent à partir de ces données pour faire des prédictions ou prendre des décisions sur de nouvelles données. Les exemples d'algorithmes d'apprentissage supervisé incluent les machines à vecteurs de support (SVM), les forêts aléatoires, et les réseaux de neurones.
+
+2. **Apprentissage non supervisé** :
+   - Contrairement à l'apprentissage supervisé, l'apprentissage non supervisé traite des données non étiquetées. Ces algorithmes recherchent des structures, des regroupements, ou des modèles cachés dans les données sans avoir de résultats cibles spécifiques. L'apprentissage non supervisé est largement utilisé dans la segmentation de clients, la classification de documents, et la détection d'anomalies. Les exemples d'algorithmes d'apprentissage non supervisé comprennent le clustering k-means, la réduction de dimensionnalité avec l'analyse en composantes principales (PCA), et les cartes auto-organisatrices (SOM).
+
+3. **Apprentissage par renforcement** :
+   - L'apprentissage par renforcement concerne les systèmes qui apprennent à partir de l'interaction avec un environnement. Ils apprennent à prendre des actions afin de maximiser une récompense ou une mesure de performance spécifique. Cette approche est souvent utilisée dans des applications telles que les jeux, les robots autonomes, et la gestion des ressources. Les algorithmes d'apprentissage par renforcement incluent les Q-Learning et les méthodes basées sur les politiques.
+
+Dans le contexte du Big Data, les algorithmes d'apprentissage automatique sont confrontés à des défis uniques, tels que la gestion des volumes massifs de données, la vitesse de traitement en temps réel, et la sélection d'algorithmes adaptés aux données spécifiques. De plus, l'utilisation du Cloud Computing pour le Big Data permet d'accéder à des ressources de calcul évolutives pour l'entraînement et le déploiement de modèles d'apprentissage automatique à grande échelle.
+
+En explorant les algorithmes d'apprentissage automatique pour le Big Data, nous découvrirons comment ces méthodes puissantes peuvent être appliquées dans divers domaines tels que la santé, le commerce électronique, la finance, la recherche scientifique et bien d'autres. Grâce à ces algorithmes, les entreprises et les organisations peuvent exploiter pleinement le potentiel de leurs données volumineuses pour améliorer les performances, prendre des décisions éclairées et innover dans un monde de plus en plus axé sur les données.
+
+### Techniques d'analyse de texte et de traitement du langage naturel
 
 Les techniques d'analyse de texte et de traitement du langage naturel (NLP) sont utilisées pour comprendre et traiter le langage humain dans un format texte brut. Ces techniques permettent aux machines de comprendre, interpréter et générer du texte, ou d'extraire des informations significatives à partir de grandes quantités de données textuelles. Voici quelques-unes des principales techniques d'analyse de texte et de NLP :
 
