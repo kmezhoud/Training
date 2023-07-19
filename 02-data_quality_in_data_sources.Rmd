@@ -2,7 +2,7 @@
 
 
 ```{r, echo=FALSE}
-knitr::include_url('https://github.com/kmezhoud/Training/blob/main/docs/data_quality_in_data_sources_slide.html#1')
+knitr::include_url('https://github.com/kmezhoud/Training/blob/main/docs/data_quality_in_data_sources_slide.html#(1)')
 ```
   
 ## Objectifs
@@ -27,7 +27,7 @@ Ce cours est un excellent moyen d'en savoir plus sur la qualité des données et
 
 ## Jour 1 
 
-### Introduction à la qualité des données (Jour 1)
+### Introduction à la qualité des données
     
 ### Les différents types de qualité des données
 
@@ -41,7 +41,7 @@ Ce cours est un excellent moyen d'en savoir plus sur la qualité des données et
 
 ## Jour 2
 
-### Évaluation de la qualité des données (Jour 2)
+### Évaluation de la qualité des données
 
 ### Les différents types d'évaluation de la qualité des données
 
@@ -53,7 +53,7 @@ Ce cours est un excellent moyen d'en savoir plus sur la qualité des données et
 
 ## Jour 3
 
-### Amélioration de la qualité des données (Jour 3)
+### Amélioration de la qualité des données
 
 ### Les différents types d'amélioration de la qualité des données
 
