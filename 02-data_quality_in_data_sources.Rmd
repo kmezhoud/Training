@@ -3,10 +3,13 @@
 # La qualité des données dans les sources de données {#dataquality}
 
 ```{r, echo=FALSE}
-knitr::include_url('https://github.com/kmezhoud/Training/blob/main/docs/data_quality_in_data_sources_slide.html#(1)')
+knitr::include_url('slides/data_quality_in_data_sources_slide.html')
 ```
 
 
+```{r, echo=FALSE}
+knitr::include_url('slides/ninja.html')
+```
 
 <!-- ````{=html} -->
 <!-- ```{r, echo=FALSE, results='asis'} -->
