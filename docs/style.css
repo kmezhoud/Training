@@ -12,3 +12,15 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.book.with-summary .book-header.fixed {
+    left: 350px;
+}
+
+.book.with-summary .book-body {
+    left: 350px;
+}
+
+.book .book-summary {
+    width: 350px;
+}
