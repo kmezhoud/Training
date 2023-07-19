@@ -15,7 +15,7 @@ link-citations: yes
 github-repo: kmezhoud/Training
 ---
 
-# About
+<!-- # About -->
 
 ![](img/mdm-framework.png)
 

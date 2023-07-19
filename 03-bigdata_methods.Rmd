@@ -1,4 +1,4 @@
-# Big Data, présentation de méthodes et solutions pratiques pour l&#39;analyse des données volumineuses (#bigdata_methods)
+# Big Data, présentation de méthodes et solutions pratiques pour l&#39;analyse des données volumineuses {#bigdata_methods}
 
 
 

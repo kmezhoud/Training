@@ -1,7 +1,7 @@
 # La qualité des données dans les sources de données {#dataquality}
 
 
-```{r}
+```{r, echo=FALSE}
 knitr::include_url('https://github.com/kmezhoud/Training/blob/main/docs/data_quality_in_data_sources_slide.html#1')
 ```
   

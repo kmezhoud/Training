@@ -1,5 +1,4 @@
-about
-introduction
+liste-des-formations
 dataquality
 objectifs
 introduction-à-la-qualité-des-données-jour-1
@@ -18,4 +17,4 @@ les-différents-types-damélioration-de-la-qualité-des-données
 les-outils-et-technologies-damélioration-de-la-qualité-des-données
 la-surveillance-de-la-qualité-des-données
 les-outils-et-technologies-de-surveillance-de-la-qualité-des-données
-big-data-présentation-de-méthodes-et-solutions-pratiques-pour-lanalyse-des-données-volumineuses-bigdata_methods
+bigdata_methods

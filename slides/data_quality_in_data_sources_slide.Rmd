@@ -19,14 +19,64 @@ knitr::opts_chunk$set(echo = FALSE)
 
 -   Introduction : Expliquer l'importance de la qualité des données dans les sources de données
 
-## Jour 1 \| Slide 2
+## Jour 1 \| Définir la qualité
 
 -   Qu'est-ce que la qualité des données ?
 
 -   Définir la qualité des données et ses dimensions principales : précision, exhaustivité, cohérence, actualité, unicité, etc.
 
-## Jour 1 \| Slide 3
+## Jour 1 \| Importance de la Qualité des données
 
 -   Pourquoi la qualité des données est-elle importante ?
 
 -   Présenter les conséquences d'une mauvaise qualité des données : prises de décision erronées, pertes financières, inefficacité opérationnelle, atteinte à la réputation, etc.
+
+
+
+## Jour 1 \| Les sources des données:
+
+- Sources de données courantes
+
+- Enumérer les différentes sources de données couramment utilisées : bases de données, fichiers CSV, API, médias sociaux, capteurs, etc.
+
+## Jour 2 \| Évaluation et amélioration de la qualité des données
+
+- Évaluation de la qualité des données
+
+- Expliquer les différentes techniques d'évaluation de la qualité des données : échantillonnage, analyse statistique, comparaison avec des sources fiables, etc.
+
+## Jour 2 \| Méthodes pour améliorer la qualité des données:
+
+- Méthodes d'amélioration de la qualité des données
+
+- Présenter les différentes méthodes pour améliorer la qualité des données : nettoyage des données, normalisation, déduplication, enrichissement, etc.
+
+## Jour 2 \| Gestion de la quqlité des données:
+
+- Gestion de la qualité des données
+
+- Parler de l'importance d'une gestion proactive de la qualité des données : définition de normes, processus de contrôle, responsabilités, etc.
+
+## Jour 3 \| Bonnes pratiques et outils pour la qualité des données
+
+- Bonnes pratiques pour assurer la qualité des données
+
+- Présenter quelques bonnes pratiques pour garantir la qualité des données : formation du personnel, documentation des processus, validation des entrées utilisateur, etc.
+
+## Jour 3 \| Outils et techniques pour la maitrise de la qualité des données:
+
+- Outils pour la qualité des données
+
+- Mentionner certains outils et technologies qui aident à maintenir la qualité des données : systèmes de gestion de la qualité des données (Data Quality Management Systems), outils d'intégration de données, solutions de nettoyage des données, etc.
+
+## Jour 3 \| Récapitulatif:
+
+- Conclusion
+
+- Récapituler les points clés abordés dans la présentation
+    Souligner l'importance continue de la qualité des données dans un monde axé sur les données
+
+## Jour 3 \| Questions et Reponses:
+
+- Questions et réponses
+- Réserver un temps pour les questions et les réponses afin de clarifier tout point soulevé par l'auditoire
