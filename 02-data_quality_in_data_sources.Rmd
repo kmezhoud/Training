@@ -54,6 +54,11 @@ knitr::include_url('slides/slide_jour_1_data_quality_in_data_sources.html')
 
 ## Jour 2
 
+```{r, echo=FALSE}
+knitr::include_url('slides/slide_jour_2_data_quality_in_data_sources.html')
+```
+
+
 ### Évaluation de la qualité des données
 
 ### Les différents types d'évaluation de la qualité des données

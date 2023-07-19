@@ -1,7 +1,9 @@
 ---
 title: "La qualité des données dans les sources de données"
+subtitle: "Jour 1"
 author: "Karim Mezhoud"
-date: "7/19/2023"
+institute: "CNSTN"
+date: "2023/12/12"
 output:
   slidy_presentation: default
   logo: logo.jpg
@@ -39,23 +41,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Enumérer les différentes sources de données couramment utilisées : bases de données, fichiers CSV, API, médias sociaux, capteurs, etc.
 
-## Jour 2 \| Évaluation et amélioration de la qualité des données
 
-- Évaluation de la qualité des données
-
-- Expliquer les différentes techniques d'évaluation de la qualité des données : échantillonnage, analyse statistique, comparaison avec des sources fiables, etc.
-
-## Jour 2 \| Méthodes pour améliorer la qualité des données:
-
-- Méthodes d'amélioration de la qualité des données
-
-- Présenter les différentes méthodes pour améliorer la qualité des données : nettoyage des données, normalisation, déduplication, enrichissement, etc.
-
-## Jour 2 \| Gestion de la quqlité des données:
-
-- Gestion de la qualité des données
-
-- Parler de l'importance d'une gestion proactive de la qualité des données : définition de normes, processus de contrôle, responsabilités, etc.
 
 ## Jour 3 \| Bonnes pratiques et outils pour la qualité des données
 
