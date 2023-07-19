@@ -1,3 +1,5 @@
+introduction
+synopsis
 liste-des-formations
 dataquality
 objectifs
