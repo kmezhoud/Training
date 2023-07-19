@@ -1,7 +1,58 @@
 # Data quality in data sources {#dataquality}
 
+## Objectifs
+
+Ce cours est conçu pour les professionnels qui souhaitent en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les différents types de qualité des données, les conséquences de la mauvaise qualité des données, les avantages d'une bonne qualité des données, les processus de gestion de la qualité des données, les outils et technologies de gestion de la qualité des données, l'évaluation de la qualité des données, la résolution des problèmes de qualité des données, l'amélioration de la qualité des données et la surveillance de la qualité des données.
+
+À la fin du cours, les participants seront en mesure de :
+
+- Définir la qualité des données
+
+- Identifier les différents types de qualité des données
+
+- Évaluer la qualité des données
+
+- Résoudre les problèmes de qualité des données
+
+- Améliorer la qualité des données
+
+- Surveiller la qualité des données
+
+Ce cours est un excellent moyen d'en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les compétences et les connaissances dont ils ont besoin pour améliorer la qualité des données dans leurs organisations.
+
+## Introduction à la qualité des données (Jour 1)
+    
+## Les différents types de qualité des données
+
+## Les conséquences de la mauvaise qualité des données
+
+## Les avantages d'une bonne qualité des données
+
+## Les processus de gestion de la qualité des données
+
+## Les outils et technologies de gestion de la qualité des données
+
+## Évaluation de la qualité des données (Jour 2)
+
+## Les différents types d'évaluation de la qualité des données
+
+## Les outils et technologies d'évaluation de la qualité des données
+
+## La résolution des problèmes de qualité des données
+
+## Les outils et technologies de résolution des problèmes de qualité des données
 
 
+
+## Amélioration de la qualité des données (Jour 3)
+
+## Les différents types d'amélioration de la qualité des données
+
+## Les outils et technologies d'amélioration de la qualité des données
+
+## La surveillance de la qualité des données
+
+## Les outils et technologies de surveillance de la qualité des données
 
 <!-- Cross-references make it easier for your readers to find and link to elements in your book. -->
 
