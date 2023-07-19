@@ -6,6 +6,14 @@ objectifs
 jour-1
 introduction-à-la-qualité-des-données
 les-différents-types-de-qualité-des-données
+lexactitude-précision-les-données-doivent-être-exactes-et-à-jour.
+la-complétude-exhaustivité-les-données-doivent-être-complètes-et-ne-doivent-pas-manquer-dinformations-importantes.
+la-cohérence-les-données-doivent-être-cohérentes-entre-elles-et-avec-les-définitions-de-données-de-lorganisation.
+lutilité-les-données-doivent-être-utiles-aux-utilisateurs-et-doivent-pouvoir-être-utilisées-pour-prendre-des-décisions.
+la-pertinence-actualité-les-données-doivent-être-pertinentes-pour-les-besoins-des-utilisateurs.
+la-fiabilité-unicité-les-données-doivent-être-fiables-et-doivent-pouvoir-être-utilisées-pour-prendre-des-décisions.
+laccessibilité-les-données-doivent-être-facilement-accessibles-aux-utilisateurs.
+la-sécurité-les-données-doivent-être-sécurisées-et-doivent-être-protégées-contre-laccès-non-autorisé.
 les-conséquences-de-la-mauvaise-qualité-des-données
 les-avantages-dune-bonne-qualité-des-données
 les-processus-de-gestion-de-la-qualité-des-données
@@ -17,7 +25,7 @@ les-outils-et-technologies-dévaluation-de-la-qualité-des-données
 la-résolution-des-problèmes-de-qualité-des-données
 les-outils-et-technologies-de-résolution-des-problèmes-de-qualité-des-données
 jour-3
-amélioration-de-la-qualité-des-données
+comment-se-fait-lamélioration-de-la-qualité-des-données
 les-différents-types-damélioration-de-la-qualité-des-données
 les-outils-et-technologies-damélioration-de-la-qualité-des-données
 la-surveillance-de-la-qualité-des-données
