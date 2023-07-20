@@ -2,10 +2,10 @@
 
 ## Synopsis
 
-![](img/mdm-framework.png)
+![](img/mdm-framework.png){align=center}
 
-<div align="right">
-[by Linxiao Ma](https://dataninjago.com/2021/09/15/what-is-data-management-actually-dama-dmbok-framework/){alig=center}
+<div align="center">
+[by Linxiao Ma](https://dataninjago.com/2021/09/15/what-is-data-management-actually-dama-dmbok-framework/)
 </div>
 
 ## Liste des Formations

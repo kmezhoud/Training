@@ -1,3 +1,4 @@
+about
 introduction
 synopsis
 liste-des-formations
