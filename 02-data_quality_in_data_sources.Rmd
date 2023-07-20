@@ -13,13 +13,13 @@
 
 ## Objectifs
 
-Ce cours est conçu pour les professionnels qui souhaitent en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les différents types de qualité des données, les conséquences de la mauvaise qualité des données, les avantages d'une bonne qualité des données, les processus de gestion de la qualité des données, les outils et technologies de gestion de la qualité des données, l'évaluation de la qualité des données, la résolution des problèmes de qualité des données, l'amélioration de la qualité des données et la surveillance de la qualité des données.
+Ce cours est conçu pour les professionnels qui souhaitent en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les différents paramètres de qualité des données, les conséquences de la mauvaise qualité des données, les avantages d'une bonne qualité des données, les processus de gestion de la qualité des données, les outils et technologies de gestion de la qualité des données, l'évaluation de la qualité des données, la résolution des problèmes de qualité des données, l'amélioration de la qualité des données et la surveillance de la qualité des données.
 
 À la fin du cours, les participants seront en mesure de :
 
 - Définir la qualité des données
 
-- Identifier les différents types de qualité des données
+- Identifier les différents paramètres de qualité des données
 
 - Évaluer la qualité des données
 
@@ -265,9 +265,9 @@ L'objectif principal de l'évaluation de la qualité des données est de détect
 
 En résumé, l'évaluation de la qualité des données est un processus essentiel pour déterminer la fiabilité des données utilisées dans une organisation. Cela permet de détecter les erreurs, les incohérences et les lacunes potentielles, et de mettre en place des mesures correctives pour améliorer la qualité des données. L'évaluation de la qualité des données est un élément clé de la gestion de la qualité des données dans le but d'assurer des résultats précis et de confiance dans les décisions basées sur les données.
 
-### Les différents types d'évaluation de la qualité des données
+### Les différents paramètres d'évaluation de la qualité des données
 
-Il existe différents types d'évaluation de la qualité des données, chacun se concentrant sur des aspects spécifiques des données pour évaluer leur fiabilité et leur intégrité. Voici les principaux types d'évaluation de la qualité des données :
+Il existe différents paramètress d'évaluation de la qualité des données, chacun se concentrant sur des aspects spécifiques des données pour évaluer leur fiabilité et leur intégrité. Voici les principaux paramètres d'évaluation de la qualité des données :
 
 1. Évaluation de la précision :
  - Cette évaluation vise à mesurer l'exactitude des données par rapport à la réalité.
@@ -302,7 +302,7 @@ Il existe différents types d'évaluation de la qualité des données, chacun se
  - Cette évaluation vise à déterminer la crédibilité des sources de données utilisées.
  - Elle implique de vérifier la réputation et la qualité des sources pour s'assurer que les données proviennent de sources fiables et dignes de confiance.
 
-Ces différents types d'évaluation de la qualité des données permettent aux organisations de comprendre la fiabilité et l'intégrité de leurs données, d'identifier les problèmes potentiels et de prendre des mesures pour améliorer la qualité des données utilisées dans leur processus décisionnel et opérationnel.
+Ces différents paramètres d'évaluation de la qualité des données permettent aux organisations de comprendre la fiabilité et l'intégrité de leurs données, d'identifier les problèmes potentiels et de prendre des mesures pour améliorer la qualité des données utilisées dans leur processus décisionnel et opérationnel.
 
 ### Les outils et technologies d'évaluation de la qualité des données
 
@@ -441,9 +441,9 @@ L'amélioration de la qualité des données est un processus continu qui vise à
 
 En résumé, l'amélioration de la qualité des données nécessite un engagement continu de la part de l'organisation et de ses employés. En utilisant des outils appropriés, en établissant des processus efficaces et en impliquant les parties prenantes, une organisation peut garantir que ses données sont fiables, précises et utiles pour prendre des décisions éclairées et atteindre ses objectifs.
 
-### Les différents types d'amélioration de la qualité des données
+### Les différents techniques d'amélioration de la qualité des données
 
-Les différents types d'amélioration de la qualité des données se concentrent sur des aspects spécifiques des données pour les rendre plus fiables, précises et pertinentes. Voici les principaux types d'amélioration de la qualité des données :
+Les différents techniques d'amélioration de la qualité des données se concentrent sur des aspects spécifiques des données pour les rendre plus fiables, précises et pertinentes. Voici les principaux techniques d'amélioration de la qualité des données :
 
 1. Nettoyage des données :
         Le nettoyage des données vise à détecter et à corriger les erreurs, les incohérences et les valeurs aberrantes dans les données. Cela comprend la suppression des doublons, la correction des erreurs de saisie et le remplissage des valeurs manquantes.
@@ -455,7 +455,7 @@ Les différents types d'amélioration de la qualité des données se concentrent
         L'enrichissement des données implique l'ajout d'informations supplémentaires à partir de sources externes pour améliorer leur qualité et leur pertinence.
 
 4. Détection et correction des doublons :
-        Ce type d'amélioration vise à identifier et à fusionner les enregistrements doublons dans les données, garantissant ainsi l'unicité des entités.
+        Ce paramètre d'amélioration vise à identifier et à fusionner les enregistrements doublons dans les données, garantissant ainsi l'unicité des entités.
 
 5. Validation des données :
         La validation des données consiste à vérifier si les données respectent les règles, les contraintes et les normes définies pour leur utilisation. Cela permet de s'assurer de la cohérence et de la validité des données.
@@ -475,7 +475,7 @@ Les différents types d'amélioration de la qualité des données se concentrent
 10. Formation et sensibilisation :
         L'amélioration de la qualité des données passe également par la formation du personnel sur l'importance de la qualité des données et sur les bonnes pratiques à suivre.
 
-Ces différents types d'amélioration de la qualité des données sont complémentaires et peuvent être mis en œuvre ensemble pour garantir que les données utilisées par une organisation sont de haute qualité, fiables et prêtes à être utilisées pour des prises de décision éclairées.
+Ces différents techniques d'amélioration de la qualité des données sont complémentaires et peuvent être mis en œuvre ensemble pour garantir que les données utilisées par une organisation sont de haute qualité, fiables et prêtes à être utilisées pour des prises de décision éclairées.
 
 ### Les outils et technologies d'amélioration de la qualité des données
 
@@ -590,6 +590,44 @@ Voici quelques exemples d'outils et technologies couramment utilisés pour surve
  - Exemples : IBM InfoSphere DataStage, Apache Kafka.
 
 Il est important de choisir les outils et les technologies qui répondent aux besoins spécifiques de l'organisation et qui peuvent être intégrés dans l'environnement technologique existant. Ces outils peuvent aider à automatiser la surveillance de la qualité des données, à détecter rapidement les problèmes potentiels et à prendre des mesures correctives appropriées.
+
+
+
+
+## Cas Pratique
+Cas pratique d'analyse de la qualité des données Big Data : Analyse des données de ventes en ligne.
+
+Description du cas pratique :
+Vous êtes un analyste de données dans une entreprise de commerce électronique qui vend une large gamme de produits en ligne. Votre entreprise génère d'énormes quantités de données de ventes chaque jour, provenant de diverses sources telles que les transactions, les enregistrements d'utilisateurs, les paniers d'achat, les avis clients, etc. Cependant, ces données ne sont pas toujours propres et peuvent contenir des erreurs, des valeurs manquantes, des incohérences, etc.
+
+Votre tâche consiste à analyser la qualité des données de ventes en ligne pour identifier et résoudre les problèmes potentiels, afin de garantir que les analyses futures et les prises de décision basées sur ces données soient fiables et précises.
+
+Données à télécharger :
+Vous pouvez télécharger les données pour ce cas pratique à partir du lien suivant :
+[Téléchargement des données de vente en ligne](https://exemplelien.com/donnees_ventes_en_ligne.csv)
+
+Le fichier "donnees_ventes_en_ligne.csv" contient les colonnes suivantes :
+
+- ID_transaction : Identifiant unique de la transaction.
+- ID_client : Identifiant unique du client.
+- Date_achat : Date de l'achat au format YYYY-MM-DD HH:mm:ss.
+- Montant : Montant de la transaction.
+- Produit : Nom du produit acheté.
+- Quantite : Nombre d'unités du produit acheté.
+- Adresse_livraison : Adresse de livraison du client.
+
+Tâches à réaliser :
+1. Charger les données à partir du fichier CSV dans un environnement de traitement de données (Python, R, ou autre outil de votre choix).
+2. Effectuer une analyse exploratoire des données pour identifier les valeurs manquantes, les doublons, les valeurs aberrantes, etc.
+3. Vérifier la cohérence des dates et des montants de transaction pour s'assurer qu'ils se situent dans des plages raisonnables.
+4. Identifier les clients ayant effectué le plus grand nombre de transactions et les produits les plus vendus.
+5. Analyser la distribution des montants de transaction et identifier les valeurs extrêmes.
+6. Nettoyer les données en traitant les valeurs manquantes, en supprimant les doublons et en corrigeant les erreurs éventuelles.
+7. Réaliser des visualisations pertinentes pour mieux comprendre les tendances et les relations entre les variables.
+8. Résumer vos conclusions quant à la qualité des données de ventes en ligne et présenter des recommandations pour améliorer la qualité des données à l'avenir.
+
+Ce cas pratique permettra aux étudiants d'acquérir une expérience concrète dans l'analyse de la qualité des données Big Data, en utilisant des techniques d'exploration de données, de nettoyage et de visualisation. Ils pourront ainsi se familiariser avec les défis liés aux données volumineuses et acquérir des compétences pratiques pour préparer des données fiables pour l'analyse et la prise de décision.
+
 
 <!-- Cross-references make it easier for your readers to find and link to elements in your book. -->
 
