@@ -2,7 +2,7 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
-      collapse: none
+#      collapse: none
       before: |
         <li><a href="./">Master Data Managment (MDM)</a></li>
       after: |

@@ -1,6 +1,6 @@
-# Introduction
+# Introduction {-}
 
-## Synopsis
+## Synopsis {-}
 
 ![](img/mdm-framework.png){align=center}
 
@@ -8,7 +8,7 @@
 [by Linxiao Ma](https://dataninjago.com/2021/09/15/what-is-data-management-actually-dama-dmbok-framework/)
 </div>
 
-## Liste des Formations
+## Liste des Formations {-}
 
 ```{r, echo=FALSE, message=FALSE}
 my_tbl <- tibble::tribble(

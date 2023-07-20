@@ -11,7 +11,7 @@
 <!-- ```` -->
 
 
-## Objectifs
+# Objectifs {-}
 
 Ce cours est conçu pour les professionnels qui souhaitent en savoir plus sur la qualité des données et ses avantages. Les participants apprendront les différents paramètres de qualité des données, les conséquences de la mauvaise qualité des données, les avantages d'une bonne qualité des données, les processus de gestion de la qualité des données, les outils et technologies de gestion de la qualité des données, l'évaluation de la qualité des données, la résolution des problèmes de qualité des données, l'amélioration de la qualité des données et la surveillance de la qualité des données.
 

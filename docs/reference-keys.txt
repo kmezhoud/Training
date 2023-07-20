@@ -1,9 +1,4 @@
-about
-introduction
-synopsis
-liste-des-formations
 dataquality
-objectifs
 jour-1
 introduction-à-la-qualité-des-données
 les-différents-paramètres-de-qualité-des-données

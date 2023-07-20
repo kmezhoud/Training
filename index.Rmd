@@ -18,7 +18,7 @@ github-repo: kmezhoud/Training
 site: bookdown::bookdown_site
 ---
 
-# About
+# About {-}
 
 ![](img/mdm_framework2.png){ align=center }
 
