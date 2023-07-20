@@ -28,7 +28,6 @@ la-surveillance-de-la-qualité-des-données
 les-outils-et-technologies-de-surveillance-de-la-qualité-des-données
 cas-pratique
 bigdata_methods
-objectifs-1
 introduction-1
 définition-du-big-data
 les-caractéristiques-du-big-data-volume-vélocité-variété-véracité-valeur-les-5v

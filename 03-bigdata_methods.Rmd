@@ -1,6 +1,6 @@
 # Big Data, présentation de méthodes et solutions pratiques pour l&#39;analyse des données volumineuses {#bigdata_methods}
 
-## Objectifs
+## Objectifs {-}
 
 Les objectifs d'un cours sur "Big Data : Présentation de méthodes et solutions pratiques pour l'analyse des données volumineuses" sont les suivants :
 
