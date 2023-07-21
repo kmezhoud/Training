@@ -1,4 +1,6 @@
 delete_merged_file: true
+# override the order in which files are merged by including the field
+rmd_files: ["index.Rmd", "01-intro.Rmd", "02-data_quality_in_data_sources.Rmd", "03-bigdata_methods.Rmd"]
 language:
   ui:
     chapter_name: "Chapter "

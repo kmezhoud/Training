@@ -69,44 +69,68 @@ La qualité des données est un élément important de la réussite des organisa
 
 Il existe de nombreux paramètres de qualité des données, mais les plus importants sont :
 
-#### L'exactitude (Précision) : les données doivent être exactes et à jour.
+#### L'exactitude (Précision) {-} 
 
-  - La précision se réfère à l'exactitude des données par rapport à la réalité.
-
-  - Les erreurs de précision peuvent conduire à des informations incorrectes et à des décisions erronées.
+ - Les données doivent être exactes et à jour
+ 
+ - La précision se réfère à l'exactitude des données par rapport à la réalité.
+ 
+ - Les erreurs de précision peuvent conduire à des informations incorrectes et à des décisions erronées.
 
   - Exemples de mesures de précision : taux d'erreur, validité des valeurs, concordance avec des sources fiables.
     
-#### La complétude (Exhaustivité) : les données doivent être complètes et ne doivent pas manquer d'informations importantes.
-  - L'exhaustivité fait référence à la présence de toutes les données requises et à l'absence de données manquantes.
-  - Les données incomplètes peuvent entraîner des lacunes dans l'analyse et une compréhension limitée du sujet.
-  - Exemples de mesures d'exhaustivité : taux de complétude, présence de valeurs manquantes.
+#### La complétude (Exhaustivité) {-} 
 
-#### La cohérence : les données doivent être cohérentes entre elles et avec les définitions de données de l'organisation.
+ - Les données doivent être complètes et ne doivent pas manquer d'informations importantes.
+ 
+ - L'exhaustivité fait référence à la présence de toutes les données requises et à l'absence de données manquantes.
+ 
+ - Les données incomplètes peuvent entraîner des lacunes dans l'analyse et une compréhension limitée du sujet.
+ 
+ - Exemples de mesures d'exhaustivité : taux de complétude, présence de valeurs manquantes.
 
-  - La cohérence se rapporte à la compatibilité et à la conformité des données entre différentes sources ou attributs.
+#### La cohérence {-} 
+
+ - Les données doivent être cohérentes entre elles et avec les définitions de données de l'organisation.
+ 
+ - La cohérence se rapporte à la compatibilité et à la conformité des données entre différentes sources ou attributs.
+ 
+ - Les incohérences peuvent conduire à des incompatibilités lors de la fusion ou de l'intégration des données.
+ 
+ - Exemples de mesures de cohérence : concordance entre les données, respect des contraintes de validité.
     
-  - Les incohérences peuvent conduire à des incompatibilités lors de la fusion ou de l'intégration des données.
+#### L'utilité {-}
+
+ - les données doivent être utiles aux utilisateurs et doivent pouvoir être utilisées pour prendre des décisions.
+
+#### La pertinence (Actualité) {-} 
+
+ - Les données doivent être pertinentes pour les besoins des utilisateurs.
+ 
+ - L'actualité se réfère à la pertinence temporelle des données.
+ 
+ - Les données obsolètes peuvent entraîner des erreurs d'analyse et des décisions basées sur des informations périmées.
+ 
+ - Exemples de mesures d'actualité : date de mise à jour, intervalle entre les mises à jour.
+
+#### La fiabilité (Unicité) {-}
+
+ - Les données doivent être fiables et doivent pouvoir être utilisées pour prendre des décisions.
+ 
+ - L'unicité se rapporte à l'absence de doublons ou de redondances dans les données.
+ 
+ - Les doublons peuvent entraîner des erreurs d'agrégation et une distorsion des résultats d'analyse.
+ 
+ - Exemples de mesures d'unicité : détection de doublons, clés d'identification uniques.
     
-  - Exemples de mesures de cohérence : concordance entre les données, respect des contraintes de validité.
-    
-#### L'utilité : les données doivent être utiles aux utilisateurs et doivent pouvoir être utilisées pour prendre des décisions.
+#### L'accessibilité {-}
 
-#### La pertinence (Actualité) : les données doivent être pertinentes pour les besoins des utilisateurs.
-  - L'actualité se réfère à la pertinence temporelle des données.
-  - Les données obsolètes peuvent entraîner des erreurs d'analyse et des décisions basées sur des informations périmées.
-  - Exemples de mesures d'actualité : date de mise à jour, intervalle entre les mises à jour.
+ - Les données doivent être facilement accessibles aux utilisateurs.
 
-#### La fiabilité (Unicité) : les données doivent être fiables et doivent pouvoir être utilisées pour prendre des décisions.
-  - L'unicité se rapporte à l'absence de doublons ou de redondances dans les données.
-  - Les doublons peuvent entraîner des erreurs d'agrégation et une distorsion des résultats d'analyse.
-  - Exemples de mesures d'unicité : détection de doublons, clés d'identification uniques.
-    
-#### L'accessibilité : les données doivent être facilement accessibles aux utilisateurs.
+#### La sécurité {-}
 
-#### La sécurité : les données doivent être sécurisées et doivent être protégées contre l'accès non autorisé.
-
-
+ - Les données doivent être sécurisées et doivent être protégées contre l'accès non autorisé.
+ 
 
 ### Les conséquences de la mauvaise qualité des données
 
@@ -408,6 +432,576 @@ Certaines des outils et techniques couramment utilisés pour résoudre les probl
 
 Ces outils et techniques peuvent être utilisés individuellement ou en combinaison pour résoudre les problèmes spécifiques de qualité des données. Le choix des outils dépend des besoins spécifiques de l'organisation, de la taille des données et de l'environnement technologique existant.
 
+## Cas Pratique 2
+
+Cas pratique d'analyse de la qualité des données Big Data : Analyse des données de ventes en ligne.
+
+**Description du cas pratique:**
+
+Vous êtes un analyste de données dans une entreprise de commerce électronique qui vend une large gamme de produits en ligne. Votre entreprise génère d'énormes quantités de données de ventes chaque jour, provenant de diverses sources telles que les transactions, les enregistrements d'utilisateurs, les paniers d'achat, les avis clients, etc. Cependant, ces données ne sont pas toujours propres et peuvent contenir des erreurs, des valeurs manquantes, des incohérences, etc.
+
+Votre tâche consiste à analyser la qualité des données de ventes en ligne pour identifier et résoudre les problèmes potentiels, afin de garantir que les analyses futures et les prises de décision basées sur ces données soient fiables et précises.
+
+Données à télécharger :
+Vous pouvez télécharger les données pour ce cas pratique à partir du lien suivant :
+[Téléchargement des données de vente en ligne](https://exemplelien.com/donnees_ventes_en_ligne.csv)
+
+Le fichier "donnees_ventes_en_ligne.csv" contient les colonnes suivantes :
+
+- ID_transaction : Identifiant unique de la transaction.
+- ID_client : Identifiant unique du client.
+- Date_achat : Date de l'achat au format YYYY-MM-DD HH:mm:ss.
+- Montant : Montant de la transaction.
+- Produit : Nom du produit acheté.
+- ID_produit : l'ID du produit
+- date_lancement : la date de lancement des produits
+- prix : Prix du produit.
+- categorie : la categorie du produit
+- Quantite : Nombre d'unités du produit acheté.
+- Adresse_livraison : Adresse de livraison du client.
+
+
+### Tâches à réaliser pour évaluer la qualité des données
+
+Votre rôle consiste à évaluer la qualité des données afin de garantir qu'elles sont fiables et cohérentes pour une analyse précise. Vous devez évaluer six paramètres de qualité des données : précision, exhaustivité, cohérence, actualité, unicité et validité.
+
+Voici comment vous pouvez procéder pour évaluer la qualité des données :
+
+#### Charger le jeu de données en Python et effectuer une première exploration
+
+```{python, eval=FALSE, collapse=TRUE}
+import pandas as pd
+
+# Charger le jeu de données
+data = pd.read_csv("donnees_ventes_en_ligne.csv")
+
+# Effectuer une première exploration des données
+print(data.head())  # Affiche les 5 premières lignes du jeu de données
+print(data.info())  # Affiche les informations sur les colonnes et les types de données
+```
+
+#### Évaluation de la précision  {.tabset .tabset-fade .tabset-pills}
+
+##### Python {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+import pandas as pd
+
+# Chargement des données (exemple simplifié)
+data = pd.read_csv("donnees_commandes.csv")
+
+# Fonction pour évaluer la précision
+def evaluate_precision(data):
+    # Vérifier si les valeurs obligatoires sont présentes (par exemple, ID de commande, ID de client, etc.)
+    total_records = len(data)
+    required_fields = ["ID_transaction", "ID_client", "Date_achat", "Montant"]
+    present_records = data[required_fields].dropna().shape[0]
+    precision_score = present_records / total_records
+    return precision_score
+
+# Autres fonctions pour évaluer les autres paramètres (exhaustivité, cohérence, actualité, unicité, validité, fiabilité)
+
+# Appel de chaque fonction pour obtenir les scores respectifs
+precision_score = evaluate_precision(data)
+# Appeler les autres fonctions pour obtenir les scores d'exhaustivité, cohérence, actualité, unicité, validité, fiabilité
+
+print("Précision :", precision_score)
+# Afficher les autres scores ici
+
+```
+
+##### R {.unlisted .unnumbered} 
+
+```{r, eval=FALSE, collapse=TRUE}
+# Chargement des données (exemple simplifié)
+data <- read.csv("donnees_commandes.csv")
+
+# Fonction pour évaluer la précision
+evaluate_precision <- function(data) {
+    # Vérifier si les valeurs obligatoires sont présentes (par exemple, ID de commande, ID de client, etc.)
+    total_records <- nrow(data)
+    required_fields <- c("ID_transaction", "ID_client", "Date_achat", "Montant")
+    present_records <- nrow(data[!is.na(data[, required_fields]), ])
+    precision_score <- present_records / total_records
+    return(precision_score)
+}
+
+# Autres fonctions pour évaluer les autres paramètres (exhaustivité, cohérence, actualité, unicité, validité, fiabilité)
+
+# Appel de chaque fonction pour obtenir le score de la pr&cision
+precision_score <- evaluate_precision(data)
+
+# Afficher les autres scores ici
+print(paste("Précision :", precision_score))
+
+
+```
+
+#### Évaluation de l'exhaustivité des données. {.tabset .tabset-fade .tabset-pills}
+
+##### Python 1 {.unlisted .unnumbered}
+```{python, eval=FALSE, collapse=TRUE} 
+# Vérifier la présence de valeurs manquantes
+missing_values = data.isnull().sum()
+print(missing_values)
+
+# Calculer le taux d'exhaustivité pour chaque colonne
+exhaustivite = 1 - (missing_values / len(data))
+print(exhaustivite)
+```
+
+##### Python 2 {.unlisted .unnumbered}
+
+```{python, eval = FALSE}
+# Fonction pour évaluer l'exhaustivité
+def evaluate_exhaustivite(data, required_fields):
+    # Vérifier la présence des valeurs obligatoires
+    total_records = len(data)
+    present_records = data[required_fields].dropna().shape[0]
+    exhaustivite_score = present_records / total_records
+    return exhaustivite_score
+
+# Chargement des données (exemple simplifié)
+data = pd.read_csv("donnees_commandes.csv")
+
+required_fields = ["ID_transaction", "ID_client", "Date_achat", "Montant"]
+
+exhaustivite_score = evaluate_exhaustivite(data, required_fields)
+
+print("Exhaustivité :", exhaustivite_score)
+```
+
+##### R {.unlisted .unnumbered}
+```{r, eval=FALSE}
+# Fonction pour évaluer l'exhaustivité
+evaluate_exhaustivite <- function(data, required_fields) {
+    # Vérifier la présence des valeurs obligatoires
+    total_records <- nrow(data)
+    present_records <- nrow(data[!is.na(data[, required_fields]), ])
+    exhaustivite_score <- present_records / total_records
+    return(exhaustivite_score)
+}
+
+data <- read.csv("donnees_commandes.csv")
+
+required_fields <- c("ID_transaction", "ID_client", "Date_achat", "Montant")
+
+print("exhaustivité: ", evaluate_exhaustivite(data, required_fields))
+```
+
+
+
+#### Évaluation de la cohérence des données. {.tabset .tabset-fade .tabset-pills}
+
+##### Pyhton 1 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Vérifier la cohérence des données pour une colonne spécifique (par exemple, le prix)
+inconsistent_data = data[data['prix'] < 0]
+print(inconsistent_data)
+```
+
+##### Python 2 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Fonction pour évaluer la cohérence
+def evaluate_coherence(data, coherence_fields):
+    # Vérifier la cohérence des champs (par exemple, vérifier si les codes de produit sont valides)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer la cohérence.
+    coherence_score = 0.75  # Exemple : score arbitraire pour illustration
+    return coherence_score
+  
+  
+coherence_fields = ["ID_produit"]
+coherence_score = evaluate_coherence(data, coherence_fields)
+
+```
+
+##### Exemple de Solution Python 2: (Hidden) {.unlisted .unnumbered}
+
+```{python, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer la cohérence
+def evaluate_coherence(data, coherence_fields):
+    # Vérifier la cohérence des champs (par exemple, vérifier si les codes de produit sont valides)
+    # Dans cet exemple, supposons que le champ "ID de produit" doit être un entier positif
+    valid_records = data[data["ID_produit"].apply(lambda x: isinstance(x, int) and x > 0)]
+    coherence_score = valid_records.shape[0] / len(data)
+    return coherence_score
+
+# Exemple de variables pour l'évaluation de la cohérence
+coherence_fields = ["ID_produit"]
+coherence_score = evaluate_coherence(data, coherence_fields)
+print("Cohérence :", coherence_score)
+```
+
+##### R  {.unlisted .unnumbered}
+
+```{r, eval=FALSE}
+# Fonction pour évaluer la cohérence
+evaluate_coherence <- function(data, coherence_fields) {
+    # Vérifier la cohérence des champs (par exemple, vérifier si les codes de produit sont valides)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer la cohérence.
+    coherence_score <- 0.75  # Exemple : score arbitraire pour illustration
+    return(coherence_score)
+}
+```
+
+##### Exemple de Solution pour R: (Hidden) {.unlisted .unnumbered}
+
+```{r, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer la cohérence
+evaluate_coherence <- function(data, coherence_fields) {
+    # Vérifier la cohérence des champs (par exemple, vérifier si les codes de produit sont valides)
+    # Dans cet exemple, supposons que le champ "ID de produit" doit être un entier positif
+    valid_records <- data[data$ID.de.produit %% 1 == 0 & data$ID.de.produit > 0, ]
+    coherence_score <- nrow(valid_records) / nrow(data)
+    return(coherence_score)
+}
+```
+
+
+#### Évaluation de l'actualité des données. {.tabset .tabset-fade .tabset-pills}
+
+##### Python 1 {.unlisted .unnumbered}
+
+```{python, eval=FALSE, collapse=TRUE, echo=FALSE}
+# Supposons que l'actualité des données est basée sur la date de lancement des produits
+from datetime import datetime
+
+# Convertir la colonne date de lancement en un format de date
+data['date_lancement'] = pd.to_datetime(data['date_lancement'])
+
+# Calculer l'écart de temps entre la date actuelle et la date de lancement
+current_date = datetime.now()
+data['ecart_temps'] = current_date - data['date_lancement']
+
+# Vérifier si certaines données ont une date de lancement trop ancienne
+outdated_data = data[data['ecart_temps'].dt.days > 365]  # Supposons que 365 jours est considéré comme "trop ancien"
+print(outdated_data)
+```
+
+
+##### Python 2 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Fonction pour évaluer l'actualité
+evaluate_actualite <- function(data, date_column) {
+    # Vérifier la fraîcheur des données (par exemple, s'assurer que les dates de commande sont récentes)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer l'actualité.
+    actualite_score <- 0.85  # Exemple : score arbitraire pour illustration
+    return(actualite_score)
+}
+```
+
+##### Exemple de Solution Python 2: (Hidden) {.unlisted .unnumbered}
+
+```{python, eval = FALSE, echo=FALSE}
+
+# Fonction pour évaluer l'actualité
+def evaluate_actualite(data, date_column):
+    # Vérifier la fraîcheur des données (par exemple, s'assurer que les dates de commande sont récentes)
+    # Dans cet exemple, nous supposons que les dates de commande doivent être après le 1er janvier 2023.
+    recent_records = data[data[date_column] >= "2023-01-01"]
+    actualite_score = recent_records.shape[0] / len(data)
+    return actualite_score
+
+# Exemple de variables pour l'évaluation de l'actualité
+date_column = "Date_achat"
+actualite_score = evaluate_actualite(data, date_column)
+print("Actualité :", actualite_score)
+```
+
+##### R {.unlisted .unnumbered}
+
+```{r, eval=FALSE}
+
+
+# Fonction pour évaluer l'actualité
+evaluate_actualite <- function(data, date_column) {
+    # Vérifier la fraîcheur des données (par exemple, s'assurer que les dates de commande sont récentes)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer l'actualité.
+    actualite_score <- 0.85  # Exemple : score arbitraire pour illustration
+    return(actualite_score)
+}
+```
+
+
+##### Exemple de Solution R: (Hidden) {.unlisted .unnumbered}
+
+```{r, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer l'actualité
+evaluate_actualite <- function(data, date_column) {
+    # Vérifier la fraîcheur des données (par exemple, s'assurer que les dates de commande sont récentes)
+    # Dans cet exemple, nous supposons que les dates de commande doivent être après le 1er janvier 2023.
+    recent_records <- data[data[, date_column] >= "2023-01-01", ]
+    actualite_score <- nrow(recent_records) / nrow(data)
+    return(actualite_score)
+}
+
+# Exemple de variables pour l'évaluation de l'actualité
+date_column <- "Date_achat"
+actualite_score <- evaluate_actualite(data, date_column)
+print(paste("Actualité :", actualite_score))
+```
+
+#### Évaluation de l'unicité des données. {.tabset .tabset-fade .tabset-pills}
+
+##### Python 1 {.unlisted .unnumbered}
+```{python, eval=FALSE, collapse=TRUE}
+# Vérifier l'unicité de l'ID du produit
+duplicate_ids = data[data.duplicated(subset='ID_produit', keep=False)]
+print(duplicate_ids)
+
+```
+
+##### Python 2 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Fonction pour évaluer l'unicité
+def evaluate_unicite(data, unique_field):
+    # Vérifier l'unicité des enregistrements (par exemple, s'assurer qu'il n'y a pas de doublons d'ID de commande)
+    unique_records = data[unique_field].nunique()
+    total_records = len(data)
+    unicite_score = unique_records / total_records
+    return unicite_score
+
+# chosisser une variable
+# excécuté la fonction
+#imprimer le résultat
+# unique_field = "ID_transaction"
+# unicite_score = evaluate_unicite(data, unique_field)
+# print("Unicité :", unicite_score)
+```
+
+##### Exemple de Solution Python 2 (Hidden) {.unlisted .unnumbered}
+
+```{python, eval = FALSE, scho=TRUE}
+# Fonction pour évaluer l'unicité
+def evaluate_unicite(data, unique_field):
+    # Vérifier l'unicité des enregistrements (par exemple, s'assurer qu'il n'y a pas de doublons d'ID de commande)
+    unique_records = data[unique_field].nunique()
+    total_records = len(data)
+    unicite_score = unique_records / total_records
+    return unicite_score
+
+# Exemple de variables pour l'évaluation de l'unicité
+unique_field = "ID_transaction"
+unicite_score = evaluate_unicite(data, unique_field)
+print("Unicité :", unicite_score)
+```
+
+##### R  {.unlisted .unnumbered}
+
+```{r, eval = FALSE}
+# Fonction pour évaluer l'unicité
+evaluate_unicite <- function(data, unique_field) {
+    # Vérifier l'unicité des enregistrements (par exemple, s'assurer qu'il n'y a pas de doublons d'ID de commande)
+    unique_records <- nrow(unique(data[, unique_field]))
+    total_records <- nrow(data)
+    unicite_score <- unique_records / total_records
+    return(unicite_score)
+}
+```
+
+##### Exemple de Solution R (Hidden) {.unlisted .unnumbered}
+
+```{python, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer l'unicité
+evaluate_unicite <- function(data, unique_field) {
+    # Vérifier l'unicité des enregistrements (par exemple, s'assurer qu'il n'y a pas de doublons d'ID de commande)
+    unique_records <- unique(data[, unique_field])
+    total_records <- nrow(data)
+    unicite_score <- length(unique_records) / total_records
+    return(unicite_score)
+}
+
+# Exemple de variables pour l'évaluation de l'unicité
+unique_field <- "ID_transaction"
+unicite_score <- evaluate_unicite(data, unique_field)
+print(paste("Unicité :", unicite_score))
+```
+
+
+#### Évaluation de la validité des données {.tabset .tabset-fade .tabset-pills}
+
+##### Python 1 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Vérifier la validité d'une colonne spécifique (par exemple, la catégorie)
+valid_categories = ['électronique', 'mode', 'maison']
+invalid_data = data[~data['categorie'].isin(valid_categories)]
+print(invalid_data)
+
+```
+
+##### Python 2 {.unlisted .unnumbered}
+
+```{python, eval=FALSE}
+# Fonction pour évaluer la validité
+def evaluate_validite(data, validity_field):
+    # Vérifier la validité des valeurs dans le champ spécifié (par exemple, vérifier que les adresses e-mail sont valides)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer la validité.
+    validite_score = 0.90  # Exemple : score arbitraire pour illustration
+    return validite_score
+  
+validity_field = "Adresse email"
+validite_score = evaluate_validite(data, validity_field)
+print("Validité :", validite_score)
+```
+
+
+##### Exemple de Solution Python 2 (Hidden) {.unlisted .unnumbered}
+
+```{python, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer la validité
+def evaluate_validite(data, validity_field):
+    # Vérifier la validité des valeurs dans le champ spécifié (par exemple, vérifier que les adresses e-mail sont valides)
+    # Dans cet exemple, nous supposons que le champ "Adresse email" doit contenir une adresse e-mail valide.
+    valid_records = data[data[validity_field].apply(lambda x: "@" in x)]
+    validite_score = valid_records.shape[0] / len(data)
+    return validite_score
+
+# Exemple de variables pour l'évaluation de la validité
+validity_field = "Adresse email"
+validite_score = evaluate_validite(data, validity_field)
+print("Validité :", validite_score)
+```
+
+##### R {.unlisted .unnumbered}
+
+```{r, eval=FALSE}
+# Fonction pour évaluer la validité
+evaluate_validite <- function(data, validity_field) {
+    # Vérifier la validité des valeurs dans le champ spécifié (par exemple, vérifier que les adresses e-mail sont valides)
+    # Mettez en œuvre la logique spécifique à votre jeu de données pour évaluer la validité.
+    validite_score <- 0.90  # Exemple : score arbitraire pour illustration
+    return(validite_score)
+}
+```
+
+
+##### Exemple de Solution R (Hidden) {.unlisted .unnumbered}
+
+```{r, eval=FALSE, echo=FALSE}
+# Fonction pour évaluer la validité
+evaluate_validite <- function(data, validity_field) {
+    # Vérifier la validité des valeurs dans le champ spécifié (par exemple, vérifier que les adresses e-mail sont valides)
+    # Dans cet exemple, nous supposons que le champ "Adresse.email" doit contenir une adresse e-mail valide.
+    valid_records <- data[grepl("@", data[, validity_field]), ]
+    validite_score <- nrow(valid_records) / nrow(data)
+    return(validite_score)
+}
+
+# Exemple de variables pour l'évaluation de la validité
+validity_field <- "Adresse.email"
+validite_score <- evaluate_validite(data, validity_field)
+print(paste("Validité :", validite_score))
+```
+
+
+#### Évaluation de la fiabilité des données {.tabset .tabset-fade .tabset-pills}
+
+La variable qui permet d'évaluer la fiabilité des données peut être subjective et dépendra du contexte spécifique de votre jeu de données. La fiabilité des données peut être évaluée en prenant en compte plusieurs aspects, tels que la source des données, les processus de collecte, les taux d'erreurs, les écarts, etc.
+
+##### Python {.unlisted .unnumbered}
+```{python, eval=FALSE}
+# Fonction pour évaluer la fiabilité
+def evaluate_fiabilite(data):
+    # Vérifier la fiabilité des sources de données (par exemple, vérifier les taux d'erreurs connus, les écarts, etc.)
+    # Dans cet exemple, nous supposons que la fiabilité est basée sur un score prédéfini.
+    fiabilite_score = 0.95  # Exemple : score arbitraire pour illustration
+    return fiabilite_score
+
+# Exemple de variables pour l'évaluation de la fiabilité
+fiabilite_score = evaluate_fiabilite(data)
+print("Fiabilité :", fiabilite_score)
+```
+
+##### R {.unlisted .unnumbered}
+```{r, eval=FALSE}
+# Fonction pour évaluer la fiabilité
+evaluate_fiabilite <- function(data) {
+    # Vérifier la fiabilité des sources de données (par exemple, vérifier les taux d'erreurs connus, les écarts, etc.)
+    # Dans cet exemple, nous supposons que la fiabilité est basée sur un score prédéfini.
+    fiabilite_score <- 0.95  # Exemple : score arbitraire pour illustration
+    return(fiabilite_score)
+}
+
+# Exemple de variables pour l'évaluation de la fiabilité
+fiabilite_score <- evaluate_fiabilite(data)
+print(paste("Fiabilité :", fiabilite_score))
+```
+
+
+Pour calculer le taux d'erreurs et les écarts, voici une approche générale que vous pouvez suivre :
+
+##### 1. Taux d'erreurs  {.unlisted .unnumbered}
+   Le taux d'erreurs est généralement calculé en déterminant le nombre d'erreurs dans les données par rapport au nombre total d'enregistrements.
+
+   - Comptez le nombre d'enregistrements avec des erreurs dans les champs critiques (par exemple, des valeurs manquantes, des valeurs aberrantes, des valeurs incohérentes, etc.).
+   - Divisez ce nombre par le nombre total d'enregistrements pour obtenir le taux d'erreurs.
+
+Exemple en Python pour calculer le taux d'erreurs : (Hidden)
+
+```{python, eval=FALSE, echo=FALSE, collapse = TRUE, class.source = 'fold-hide'}
+   def calculate_error_rate(data):
+       total_records = len(data)
+       error_records = data[data["Champ_critique"].isnull() | data["Champ_critique"] < 0]
+       error_rate = len(error_records) / total_records
+       return error_rate
+
+   error_rate = calculate_error_rate(data)
+```
+
+##### 2. Écarts {.unlisted .unnumbered}
+   Les écarts peuvent être évalués en comparant les données avec une source de vérité (source de référence) ou une autre source de données fiable.
+
+   - Identifiez une source de vérité ou une autre source de données de référence.
+   - Comparez les valeurs des champs critiques dans votre jeu de données avec celles de la source de vérité ou de référence.
+   - Calculez les écarts entre les deux sources en termes de pourcentage, de différence absolue, etc.
+
+   Exemple en Python pour estimer les écart : (Hidden)
+   
+```{python, eval=FALSE, echo=FALSE, collapse = TRUE , class.source = 'fold-hide'}
+
+   def calculate_data_discrepancies(data, reference_data):
+       discrepancies = data["Champ_critique"] - reference_data["Champ_critique"]
+       # Calculer les écarts sous une forme appropriée (par exemple, pourcentage, différence absolue, etc.)
+       return discrepancies
+
+   reference_data = pd.read_csv("source_de_reference.csv")
+   discrepancies = calculate_data_discrepancies(data, reference_data)
+```
+
+Il est important de noter que la manière spécifique de calculer le taux d'erreurs et les écarts dépendra de la nature de vos données et des exigences de fiabilité de votre projet. Dans certains cas, vous pouvez également envisager d'utiliser des métriques de qualité des données plus avancées, telles que l'indice de qualité des données (DQI), pour évaluer la fiabilité globale de vos données en utilisant différentes dimensions.
+
+N'hésitez pas à adapter ces approches à votre cas d'utilisation spécifique et à les combiner avec d'autres méthodes d'évaluation pour obtenir une évaluation complète de la fiabilité de vos données en Big Data.
+
+Solution globale :
+
+Après avoir identifié les problèmes de qualité des données à partir des évaluations ci-dessus, vous pouvez mettre en œuvre des stratégies spécifiques pour les corriger, telles que la suppression des données incohérentes, l'imputation des valeurs manquantes, la mise à jour des données obsolètes, etc. En outre, vous pouvez collaborer avec les parties prenantes pour améliorer la collecte des données à l'avenir et mettre en place des processus de surveillance continue pour maintenir la qualité des données à un niveau élevé.
+
+
+### Tâches à réaliser pour une EDA :
+
+1. Charger les données à partir du fichier CSV dans un environnement de traitement de données (Python, R, ou autre outil de votre choix).
+
+2. Effectuer une analyse exploratoire des données pour identifier les valeurs manquantes, les doublons, les valeurs aberrantes, etc.
+
+3. Vérifier la cohérence des dates et des montants de transaction pour s'assurer qu'ils se situent dans des plages raisonnables.
+
+4. Identifier les clients ayant effectué le plus grand nombre de transactions et les produits les plus vendus.
+
+5. Analyser la distribution des montants de transaction et identifier les valeurs extrêmes.
+
+6. Nettoyer les données en traitant les valeurs manquantes, en supprimant les doublons et en corrigeant les erreurs éventuelles.
+
+7. Réaliser des visualisations pertinentes pour mieux comprendre les tendances et les relations entre les variables.
+
+8. Résumer vos conclusions quant à la qualité des données de ventes en ligne et présenter des recommandations pour améliorer la qualité des données à l'avenir.
+
+Ce cas pratique permettra aux étudiants d'acquérir une expérience concrète dans l'analyse de la qualité des données Big Data, en utilisant des techniques d'exploration de données, de nettoyage et de visualisation. Ils pourront ainsi se familiariser avec les défis liés aux données volumineuses et acquérir des compétences pratiques pour préparer des données fiables pour l'analyse et la prise de décision.
+
 
 ## Jour 3
 
@@ -592,41 +1186,123 @@ Voici quelques exemples d'outils et technologies couramment utilisés pour surve
 Il est important de choisir les outils et les technologies qui répondent aux besoins spécifiques de l'organisation et qui peuvent être intégrés dans l'environnement technologique existant. Ces outils peuvent aider à automatiser la surveillance de la qualité des données, à détecter rapidement les problèmes potentiels et à prendre des mesures correctives appropriées.
 
 
+## Cas Pratique 3
+
+Améliorer la qualité des données en se basant sur différentes techniques est une tâche complexe et dépendante du contexte spécifique de votre jeu de données. Cependant, je peux vous proposer un exemple de code en Python et R qui illustre certaines de ces techniques de manière simplifiée. Notez que dans un cas réel, vous devrez adapter ces approches en fonction de vos données spécifiques et des besoins de votre projet.
+
+Exemple de code en Python :
+
+```{python, eval=FALSE}
+import pandas as pd
+import numpy as np
+
+# Chargement des données (exemple simplifié)
+data = pd.read_csv("donnees_brutes.csv")
+
+# Nettoyage des données : Suppression des doublons
+data = data.drop_duplicates()
+
+# Normalisation des données : Mise à l'échelle des valeurs entre 0 et 1
+def normalize_data(column):
+    return (column - column.min()) / (column.max() - column.min())
+
+data["Montant_normalise"] = normalize_data(data["Montant"])
+
+# Enrichissement des données : Ajout d'une colonne calculée
+data["Montant_TTC"] = data["Montant"] * 1.20  # Supposons un taux de TVA de 20%
+
+# Validation des données : Vérification de la validité des dates de commande
+data["Date de commande"] = pd.to_datetime(data["Date de commande"], errors="coerce")
+
+# Amélioration de l’exhaustivité des données : Remplissage des valeurs manquantes
+data.fillna({"Champ_critique": 0}, inplace=True)
+
+# Contrôle qualité continu : Surveillance des erreurs et des écarts
+def check_quality_continuously(data):
+    # Insérez ici votre logique pour surveiller en continu les erreurs et les écarts
+    pass
+
+# Gestion des métadonnées : Ajout d'informations sur les colonnes
+metadata = {
+    "ID de commande": "Identifiant unique de la commande",
+    "ID de client": "Identifiant unique du client",
+    "Date de commande": "Date à laquelle la commande a été passée",
+    "Montant": "Montant de la commande",
+    # Ajoutez d'autres métadonnées ici
+}
+
+# Amélioration de la sécurité des données : Suppression de données sensibles
+data.drop(["Mot de passe", "Informations personnelles"], axis=1, inplace=True)
+
+# Formation et sensibilisation : Formation du personnel pour améliorer la saisie des données
+def train_data_entry_personnel():
+    # Insérez ici votre logique de formation du personnel pour améliorer la saisie des données
+    pass
+
+# Exemple de code pour vérifier la qualité des données de manière continue
+check_quality_continuously(data)
+
+# Sauvegarde des données nettoyées et améliorées
+data.to_csv("donnees_ameliorees.csv", index=False)
+```
+
+Exemple de code en R :
+
+```{R, eval=FALSE}
+# Chargement des données (exemple simplifié)
+data <- read.csv("donnees_brutes.csv")
+
+# Nettoyage des données : Suppression des doublons
+data <- unique(data)
+
+# Normalisation des données : Mise à l'échelle des valeurs entre 0 et 1
+normalize_data <- function(column) {
+    return ((column - min(column)) / (max(column) - min(column)))
+}
+
+data$Montant_normalise <- normalize_data(data$Montant)
+
+# Enrichissement des données : Ajout d'une colonne calculée
+data$Montant_TTC <- data$Montant * 1.20  # Supposons un taux de TVA de 20%
+
+# Validation des données : Vérification de la validité des dates de commande
+data$Date.de.commande <- as.Date(data$Date.de.commande, format="%Y-%m-%d")
+
+# Amélioration de l’exhaustivité des données : Remplissage des valeurs manquantes
+data$Champ_critique[is.na(data$Champ_critique)] <- 0
+
+# Contrôle qualité continu : Surveillance des erreurs et des écarts
+check_quality_continuously <- function(data) {
+    # Insérez ici votre logique pour surveiller en continu les erreurs et les écarts
+}
+
+# Gestion des métadonnées : Ajout d'informations sur les colonnes
+metadata <- list(
+    "ID.de.commande" = "Identifiant unique de la commande",
+    "ID.de.client" = "Identifiant unique du client",
+    "Date.de.commande" = "Date à laquelle la commande a été passée",
+    "Montant" = "Montant de la commande",
+    # Ajoutez d'autres métadonnées ici
+)
+
+# Amélioration de la sécurité des données : Suppression de données sensibles
+data <- data[, !(names(data) %in% c("Mot.de.passe", "Informations.personnelles"))]
+
+# Formation et sensibilisation : Formation du personnel pour améliorer la saisie des données
+train_data_entry_personnel <- function() {
+    # Insérez ici votre logique de formation du personnel pour améliorer la saisie des données
+}
+
+# Exemple de code pour vérifier la qualité des données de manière continue
+check_quality_continuously(data)
+
+# Sauvegarde des données nettoyées et améliorées
+write.csv(data, file="donnees_ameliorees.csv", row.names=FALSE)
+```
+
+Dans cet exemple, les différentes techniques telles que le nettoyage des données, la normalisation, l'enrichissement, la validation, l'amélioration de l'exhaustivité, le contrôle qualité continu, la gestion des métadonnées, l'amélioration de la sécurité des données, la formation et la sensibilisation ont été implémentées de manière simplifiée. Vous devrez adapter ces approches en fonction de votre jeu de données réel et des exigences spécifiques de votre projet pour améliorer la qualité de vos données en Big Data.
 
 
-## Cas Pratique
-Cas pratique d'analyse de la qualité des données Big Data : Analyse des données de ventes en ligne.
-
-Description du cas pratique :
-Vous êtes un analyste de données dans une entreprise de commerce électronique qui vend une large gamme de produits en ligne. Votre entreprise génère d'énormes quantités de données de ventes chaque jour, provenant de diverses sources telles que les transactions, les enregistrements d'utilisateurs, les paniers d'achat, les avis clients, etc. Cependant, ces données ne sont pas toujours propres et peuvent contenir des erreurs, des valeurs manquantes, des incohérences, etc.
-
-Votre tâche consiste à analyser la qualité des données de ventes en ligne pour identifier et résoudre les problèmes potentiels, afin de garantir que les analyses futures et les prises de décision basées sur ces données soient fiables et précises.
-
-Données à télécharger :
-Vous pouvez télécharger les données pour ce cas pratique à partir du lien suivant :
-[Téléchargement des données de vente en ligne](https://exemplelien.com/donnees_ventes_en_ligne.csv)
-
-Le fichier "donnees_ventes_en_ligne.csv" contient les colonnes suivantes :
-
-- ID_transaction : Identifiant unique de la transaction.
-- ID_client : Identifiant unique du client.
-- Date_achat : Date de l'achat au format YYYY-MM-DD HH:mm:ss.
-- Montant : Montant de la transaction.
-- Produit : Nom du produit acheté.
-- Quantite : Nombre d'unités du produit acheté.
-- Adresse_livraison : Adresse de livraison du client.
-
-Tâches à réaliser :
-1. Charger les données à partir du fichier CSV dans un environnement de traitement de données (Python, R, ou autre outil de votre choix).
-2. Effectuer une analyse exploratoire des données pour identifier les valeurs manquantes, les doublons, les valeurs aberrantes, etc.
-3. Vérifier la cohérence des dates et des montants de transaction pour s'assurer qu'ils se situent dans des plages raisonnables.
-4. Identifier les clients ayant effectué le plus grand nombre de transactions et les produits les plus vendus.
-5. Analyser la distribution des montants de transaction et identifier les valeurs extrêmes.
-6. Nettoyer les données en traitant les valeurs manquantes, en supprimant les doublons et en corrigeant les erreurs éventuelles.
-7. Réaliser des visualisations pertinentes pour mieux comprendre les tendances et les relations entre les variables.
-8. Résumer vos conclusions quant à la qualité des données de ventes en ligne et présenter des recommandations pour améliorer la qualité des données à l'avenir.
-
-Ce cas pratique permettra aux étudiants d'acquérir une expérience concrète dans l'analyse de la qualité des données Big Data, en utilisant des techniques d'exploration de données, de nettoyage et de visualisation. Ils pourront ainsi se familiariser avec les défis liés aux données volumineuses et acquérir des compétences pratiques pour préparer des données fiables pour l'analyse et la prise de décision.
 
 
 <!-- Cross-references make it easier for your readers to find and link to elements in your book. -->
